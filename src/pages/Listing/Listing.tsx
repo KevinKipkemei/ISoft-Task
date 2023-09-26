@@ -6,7 +6,7 @@ const Listing = () => {
       <h3>
         Listings
       </h3>
-      <p>Experienced Docker issues while trying to set up an instance.</p>
+      <p>Experienced technical difficulties with Docker while trying to set up an instance.</p>
     </div>
   )
 }
