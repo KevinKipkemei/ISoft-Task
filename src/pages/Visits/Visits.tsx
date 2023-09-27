@@ -72,8 +72,8 @@ const Visits = () => {
   }, [patientID]);
 
   const handleSave = () => {
-     navigate('/Listing');
-     alert('Saved')
+    navigate('/Listing');
+    alert('Saved');
   };
 
   // console.log(vitalsData);
@@ -227,7 +227,9 @@ const Visits = () => {
           ))}
       </div>
       <div className="form-action">
-        <button className="action-btn" onClick = {handleSave}>Save</button>
+        <button className="action-btn" onClick={handleSave}>
+          Save
+        </button>
       </div>
     </div>
   );

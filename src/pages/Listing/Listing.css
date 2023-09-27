@@ -1,0 +1,49 @@
+.listing-headings{
+  color: #111827;
+  font-weight: 500;
+  font-size: 10.8px;
+  line-height: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 10.8px;
+}
+
+th {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  color: black;
+}
+
+label{
+  color: #111827;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 10.8px;
+  line-height: 1.5rem;
+}
+
+select {
+  font-size: 12px;
+  height: 36px;
+  background-color: white;
+  color: #111827;
+  padding: 0.6em 1.2em;
+  margin-bottom: 15px;
+  font-weight: 500;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-family: inherit;
+}

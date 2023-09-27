@@ -14,6 +14,7 @@ interface RegistrationProps {
   patientID: string;
   setPatientID: React.Dispatch<React.SetStateAction<string>>;
 }
+
 const Registration = ({ patientID, setPatientID }: RegistrationProps) => {
   const navigate = useNavigate();
 
@@ -80,7 +81,7 @@ const Registration = ({ patientID, setPatientID }: RegistrationProps) => {
     setPatientID(randomID);
 
     navigate('/Visits', { state: { patientID: randomID } });
-    alert('Saved')
+    alert('Saved');
   };
 
   // console.log(patientDetails);
