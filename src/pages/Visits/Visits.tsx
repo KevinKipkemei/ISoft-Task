@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
+
 interface vitalsData {
   Height: number;
   Weight: number;
@@ -76,6 +77,7 @@ const Visits = () => {
     alert('Saved');
   };
 
+ 
   // console.log(vitalsData);
 
   return (
